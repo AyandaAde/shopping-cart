@@ -16,6 +16,7 @@ export default function HomePage() {
   }, [cartItems]);
 
   useEffect(() => {
+    //@ts-ignore
     dispatch(getCartItems());
   }, []);
 
